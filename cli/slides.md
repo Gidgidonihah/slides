@@ -12,6 +12,7 @@ Why?
 Using the CLI can seem old school. Maybe it is. But it's great.
 -->
 
+
 --->
 
 It's fast
@@ -495,7 +496,6 @@ More about this in a minute.
 
 # Awesome tools
 
-
 • [bat](https://github.com/sharkdp/bat)
 • [caniuse-cli](https://github.com/dsenkus/caniuse-cli)
 • [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
@@ -511,6 +511,8 @@ More about this in a minute.
 • [httpie](https://httpie.io/cli)
 • [jq](https://stedolan.github.io/jq/)
 • [yq](https://github.com/mikefarah/yq)
+• [fx](https://github.com/antonmedv/fx)
+• [jid](https://github.com/simeji/jid)
 • [dbcli](https://www.dbcli.com)
   - [iredis](https://www.pgcli.com)
   - [litecli](https://litecli.com)
@@ -518,6 +520,8 @@ More about this in a minute.
   - [pgcli](https://www.pgcli.com)
 • [The Fuck](https://github.com/nvbn/thefuck)
 • [tldr](https://github.com/tldr-pages/tldr)
+• [yadm](https://yadm.io/)
+
 <ul>
 
 --->
@@ -749,6 +753,31 @@ $ curl https://raw.githubusercontent.com/mikefarah/yq/master/.golangci.yml | yq 
 
 --->
 
+## fx
+
+Command-line JSON processing tool
+
+```
+$ curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | fx
+```
+
+<img src="images/fx.gif" />
+
+--->
+
+## jid
+
+Json Incremental Digger
+
+```
+$ curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jid
+```
+
+
+<img src="images/jid.gif" />
+
+--->
+
 ## dbcli
 
 CLI for DBs with auto-completion and syntax highlighting.
@@ -772,6 +801,14 @@ Corrects errors in previous console commands.
 Collaborative cheatsheets for console commands.
 
 <img src="images/tldr.svg" />
+
+--->
+
+## YADM
+
+Yet Another Dotfiles Manager
+
+yadm is like having a version of Git, that only operates on your dotfiles. If you know how to use Git, you already know how to use yadm.
 
 ---
 
