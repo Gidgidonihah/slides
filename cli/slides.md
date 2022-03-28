@@ -496,9 +496,9 @@ More about this in a minute.
 
 # Awesome tools
 
-• [bat](https://github.com/sharkdp/bat)
-• [caniuse-cli](https://github.com/dsenkus/caniuse-cli)
-• [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+  • [bat](https://github.com/sharkdp/bat)
+  • [caniuse-cli](https://github.com/dsenkus/caniuse-cli)
+  • [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 • [entr](https://eradman.com/entrproject/)
 • [fzf](https://github.com/junegunn/fzf)
 • [gistup](https://github.com/mbostock/gistup)
@@ -510,11 +510,11 @@ More about this in a minute.
 • [homebrew](https://brew.sh)
 • [httpie](https://httpie.io/cli)
 • [jq](https://stedolan.github.io/jq/)
-• [yq](https://github.com/mikefarah/yq)
+• [yq](https://kislyuk.github.io/yq/)
 • [fx](https://github.com/antonmedv/fx)
 • [jid](https://github.com/simeji/jid)
 • [dbcli](https://www.dbcli.com)
-  - [iredis](https://www.pgcli.com)
+  - [iredis](https://github.com/laixintao/iredis)
   - [litecli](https://litecli.com)
   - [mycli](https://www.mycli.net)
   - [pgcli](https://www.pgcli.com)
