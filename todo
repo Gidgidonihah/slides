@@ -1,2 +1,9 @@
+# TODO
+Things needed for this repo
+
+## General
+* Upgrade reveal.js (currently using 2.4.0)
+* Make reveal.js (shared/) a submodule, rather than copied code.
+
+## Additional slides
 * Vim
-* Ruby Spelunking
