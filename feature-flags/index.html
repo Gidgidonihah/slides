@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Feature Flags</title>
+
+    <meta name="description" content="Just some basics to feature flags">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Limelight' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="../revealjs/dist/reset.css">
+    <link rel="stylesheet" href="../revealjs/dist/reveal.css">
+    <link rel="stylesheet" href="../revealjs/dist/theme/moon.css">
+
+    <link rel="stylesheet" href="../moon-override.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="../revealjs/plugin/highlight/monokai.css">
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="slides.md"
+             data-separator="^\n---\n$"
+             data-separator-vertical="^\n--->\n$"
+             data-separator-notes="^Note:"
+        />
+      </div>
+    </div>
+
+    <script src="../revealjs/dist/reveal.js"></script>
+    <script src="../revealjs/plugin/notes/notes.js"></script>
+    <script src="../revealjs/plugin/markdown/markdown.js"></script>
+    <script src="../revealjs/plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
+</html>
