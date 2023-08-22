@@ -1,0 +1,56 @@
+:root {
+  --r-background-color: #111;
+  --r-main-font: 'Josefin Sans', sans-serif;
+  --r-main-font-size: 28px;
+  --r-main-color: rgb(222, 59, 106);
+  --r-block-margin: 10px;
+  --r-heading-margin: 0 0 .5em 0;
+  --r-heading-font: Limelight, League Gothic, Impact, sans-serif;
+  --r-heading-color: var(--r-main-color);
+  --r-heading-line-height: 1.0;
+  --r-heading-letter-spacing: normal;
+  --r-heading-text-transform: uppercase;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: normal;
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 3.77em;
+  --r-heading2-size: 2.11em;
+  --r-heading3-size: 2.11em;
+  --r-heading4-size: 2.11em;
+  --r-code-font: monospace;
+  --r-link-color: #268bd2;
+  --r-link-color-dark: #1a6091;
+  --r-link-color-hover: #78b9e6;
+  --r-selection-background-color: #d33682;
+  --r-selection-color: #fff;
+}
+html {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAgAElEQ…9r3qDaXis9KFt5Ymcq5xTYZ61gmD9N7W240gvNd7wv+X9bZfTDGXHR4gAAAABJRU5ErkJggg==);
+}
+body {
+  text-shadow: none;
+  font-size: 2.11em;
+  border-color: #268bd2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
+.reveal h1 {
+  font-family: var(--r-heading-font);
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+.reveal h5,
+.reveal h6 {
+  font-family: var(--r-main-font);
+  margin-top: .5em;
+}
+.reveal h1 {
+  font-size: 3.77em;
+}
+code {
+  padding: 0.5em;
+  background: #3F3F3F;
+}
+.reveal section img.transparent {
+  background: none;
+  border: none;
+  box-shadow: none;
+}

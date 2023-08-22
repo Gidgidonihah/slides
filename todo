@@ -2,8 +2,11 @@
 Things needed for this repo
 
 ## General
-* Upgrade reveal.js (currently using 2.4.0)
+* Migrate slides to 4.5.0
+* Remove current shared content
+* Move /moon-override.css to /shared/css/moon-override.css
 * Make reveal.js (shared/) a submodule, rather than copied code.
+* Make this available at slides.gidgidonihah.com
 
-## Additional slides
+## Additional slides to make
 * Vim
