@@ -6,6 +6,7 @@ Things needed for this repo
 * Remove current shared content
 * Move /moon-override.css to /shared/css/moon-override.css
 * Adjust the nginx config to allow display rather than download of markdown files
+* Use some sort of templating so I don't have to replicate html. Generate it.
 
 ## Additional slides to make
 * Vim

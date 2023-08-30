@@ -72,7 +72,9 @@ We're not gonna cover it all.
 * whoami
 
 <br>
-We know all this stuff. If you don't, go read a [primer]( https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line ).
+
+We know all this stuff. If you don't, go read a
+[primer](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line).
 
 --->
 
@@ -141,12 +143,15 @@ I mean what else could we possibly want to do?
 
 So let's make a pipe with `cat`, `awk`, `sort` and `uniq`.
 
+<br>
+
 ```sh
-cat data.csv | awk -F ',' '{print $1}{print $3}' | \
-  sort | uniq | awk '{$1=$1};1'
+cat data.csv | awk -F ',' '{print $1}{print $3}' | sort | uniq | awk '{$1=$1};1'
 ```
 <br>
+
 Robert is your father's brother:
+
 ```
 baby you and me
 uandme
@@ -170,7 +175,7 @@ So what do I need to have an awesome development environment?
 
 It's more awesomer than bash.
 
-(I've [talked about zsh](https://gidgidonihah.github.io/slides/zsh/) before.)
+(I've [talked about zsh](https://slides.gidgidonihah.com/zsh/) before.)
 
 Sprinkle in some [Oh My Zsh](https://ohmyz.sh).
 
@@ -496,9 +501,9 @@ More about this in a minute.
 
 # Awesome tools
 
-  • [bat](https://github.com/sharkdp/bat)
-  • [caniuse-cli](https://github.com/dsenkus/caniuse-cli)
-  • [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+• [bat](https://github.com/sharkdp/bat)
+• [caniuse-cli](https://github.com/dsenkus/caniuse-cli)
+• [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 • [entr](https://eradman.com/entrproject/)
 • [fzf](https://github.com/junegunn/fzf)
 • [gistup](https://github.com/mbostock/gistup)
@@ -514,13 +519,17 @@ More about this in a minute.
 • [fx](https://github.com/antonmedv/fx)
 • [jid](https://github.com/simeji/jid)
 • [dbcli](https://www.dbcli.com)
-  - [iredis](https://github.com/laixintao/iredis)
-  - [litecli](https://litecli.com)
-  - [mycli](https://www.mycli.net)
-  - [pgcli](https://www.pgcli.com)
+  (
+    [iredis](https://github.com/laixintao/iredis),
+    [litecli](https://litecli.com),
+    [mycli](https://www.mycli.net),
+    [pgcli](https://www.pgcli.com)
+  )
 • [The Fuck](https://github.com/nvbn/thefuck)
 • [tldr](https://github.com/tldr-pages/tldr)
 • [yadm](https://yadm.io/)
+
+I'm always adopting more as I come across them.
 
 <ul>
 
@@ -822,7 +831,7 @@ What else should we talk about?
 
 # References
 
-+ https://www.howtogeek.com/437682/command-lines-why-do-people-still-bother-with-them/
-+ https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
-+ https://eds-uga.github.io/cbio-x835-sp20/slides/CommandLine.slides.pdf
-+ https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean
++ [Command Lines: Why Do People Still Bother With Them?](https://www.howtogeek.com/437682/command-lines-why-do-people-still-bother-with-them/)
++ [Command line crash course - Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
++ [Command Line Basics](https://eds-uga.github.io/cbio-x835-sp20/slides/CommandLine.slides.pdf)
++ [What does " 2>&1 " mean?](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)

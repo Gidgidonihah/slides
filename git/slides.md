@@ -54,9 +54,9 @@
 --->
 
 # Awesome, I want one!
-### Is git the only option?
-### \*cough\* No... \*cough\*
-### (yes)
+##### Is git the only option?
+##### \*cough\* No... \*cough\*
+##### (yes)
 
 --->
 
@@ -213,13 +213,13 @@ We'll talk about that in Configuration
 
 --->
 
-## How does git stores one commit?
+## How does git store one commit?
 <img src="images/commit-and-tree.png" width="700px" style="padding: 0 15px 15px" />
 <!-- TODO: make hashes visible on background. Also, svg? -->
 
 --->
 
-## How does git stores many commits?
+## How does git store many commits?
 <img src="images/commits-and-parents.png" width="700px" />
 <!-- TODO: make hashes visible on background. Also, svg? -->
 
@@ -240,6 +240,7 @@ We'll talk about that in Configuration
 
 ## How do I know which branch I'm on?
 <img src="images/head-to-master.png" width="600px" style="padding: 15px" />
+
 ## HEAD
 
 --->
@@ -301,6 +302,7 @@ Cause you know it, right?
 ### Create a new repo
     $ git init
 <br>
+
 ### Clone an existing repo
     $ git clone <repo>
 
@@ -376,7 +378,9 @@ This will stage and commit the files in a single operation
 
 ## Moving  and renaming files
     $ git mv file_from file_to
+
 <br>
+
 ## Is just a short hand for
     $ mv README.txt README
     $ git rm README.txt
@@ -402,14 +406,28 @@ IDE files, local settings, etc...
 
 ## Branches
 
+```
+git branch
+git checkout
+git branch
+```
+
+--->
+
 ### Create a branch
     $ git branch <branch_name>
 ### Delete a branch
     $ git branch -d <branch_name>
+
+--->
+
 ### Move to another branch
     $ git checkout <branch_name>
 ### Create a branch and switch to it
     $ git checkout -b <branch_name>
+
+--->
+
 ### List branches
     $ git branch
 
@@ -707,7 +725,6 @@ Now we can fast-forward merge (open a PR).
 ### The golden rule of rebasing
 
 Never rebase a shared branch.
-
 Rebase **ONTO** a shared branch.
 
 <img src="images/rebase_meme.jpg" width="800px" />

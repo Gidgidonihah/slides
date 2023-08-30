@@ -45,8 +45,10 @@ body {
 .reveal h1 {
   font-size: 3.77em;
 }
-code {
+.reveal pre code {
   padding: 0.5em;
+}
+code {
   background: #3F3F3F;
 }
 .reveal section img.transparent {

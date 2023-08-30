@@ -11,7 +11,7 @@
 * Remote Control
 * Fun!
 
----
+--->
 
 ### Integrated HA
 Expensive and proprietary
@@ -21,6 +21,8 @@ Been around a long time
 Ever seen the movie Antitrust?
 <br>
 <br>
+
+--->
 
 ### Piecemeal HA
 
@@ -76,7 +78,9 @@ Control requires a bridge.
 
 --->
 
-### Matter (a standard, not a protocol)
+### Matter
+
+A standard, not a protocol.
 
 Matter uses only existing standard protocols:
 
@@ -220,6 +224,8 @@ Turn on your lights 20 mins before sunset.
 
 Turn on a lamp when a person is detected.
 
+Turn on office lamp when the outdoor light sensor is below x lumens.
+
 
 --->
 
@@ -298,12 +304,14 @@ I've had both August and Level.
 ### Cameras
 
 Logitech doorbell cameras.
+Eve Outdoor Camera
 
 --->
 
 ### Outlets
 
-Plant grow lamp.
+Lamps.
+Plant grow lights.
 Disney Castle.
 Seasonal Decorations.
 

@@ -2,7 +2,7 @@
 
 ---
 
-##[An anecdote](https://leancrew.com/all-this/2011/12/more-shell-less-egg/)
+## [An anecdote](https://leancrew.com/all-this/2011/12/more-shell-less-egg/)
 
 In 1986 [Doug Knuth](http://en.wikipedia.org/wiki/Donald_Knuth) was asked to
 write an article for a regular column called “Programming Pearls”.
@@ -13,9 +13,9 @@ a sorted list of those words along with their frequencies.
 
 --->
 
-Knuth wrote a program that used Pascal that, when printed, was about 10 pages.
-It was well designed, nicely commented and used a novel data structure to
-manage the list.
+Knuth wrote a program that used Pascal that, when printed (remember, 1986), was about 10
+pages. It was well designed, nicely commented and used a novel data structure to manage
+the list.
 
 --->
 
@@ -316,23 +316,37 @@ This particular simple example duplicated by
 
 #### Plugins I use
 
-(at the time of this writing...2021)
+(at the time of this writing...2023)
 <br>
 <br>
 
 <!-- Intentionally not a markdown list -->
-aliases
+alias-finder
+• aliases
+• aws
 • colored-man-pages
+• command-not-found
+• copybuffer
+• cp
 • docker
 • docker-compose
 • emoji
+• extract
+• fancy-ctrl-z
 • [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
 • gcloud
 • git
+• git-extras
+• httpie
+• isodate
+• kubectl
 • kubectx
+• last-working-dir
 • macos
 • [notify](https://github.com/marzocchi/zsh-notify)
 • poetry
+• python
+• rsync
 • scd
 • thefuck
 • vi-mode
@@ -340,9 +354,14 @@ aliases
 • yarn
 • [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
+
+
+
+
+
 <br>
 <br>
-Linked plugins are third-party
+Linked plugins are third-party and not bundled with OMZ
 
 --->
 
