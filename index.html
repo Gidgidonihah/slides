@@ -25,8 +25,16 @@
     <style>
       .links {
         margin-top: 4em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
       }
-      .links > a{ display: block; }
+      @media only screen and (max-width: 800px) {
+          .links { display: block }
+      }
+      .links > a{
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -47,6 +55,10 @@
         <a class="icon" href="/git/" title="I ain't afraid of no Git!">
           <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
           I ain't afraid of no Git!
+        </a>
+        <a class="icon" href="/docker/" title="Docker!">
+          <i class="fa-brands fa-docker" aria-hidden="true"></i>
+          Docker
         </a>
         <a class="icon" href="/home-automation/" title="Home Automation">
           <i class="fa-regular fa-house" aria-hidden="true"></i>
